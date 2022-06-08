@@ -1,0 +1,32 @@
+.card-header {
+    padding: 10px 25px;
+}
+.card-body {
+    padding: 20px 25px;
+}
+.card-body li {
+    border: 1px solid #e6e6e6;
+    padding: 15px;
+}
+.card-body li.tp {
+    border-radius: 5px 5px 0px 0px;
+}
+.card-body li.md {
+    border-top:0px;
+    border-bottom:0px;
+}
+.card-body li.btm {
+    border-radius: 0px 0px 5px 5px;
+}
+#manager svg, #engineer svg, #intern svg {
+    margin-right: 8px;
+}
+#engineer svg, #intern svg{
+    vertical-align: top;
+}
+#manager svg {
+    margin-top: -5px;
+}
+#intern svg {
+    margin-top:2px;
+}
