@@ -1,24 +1,31 @@
-const Engineer = require('./engineer');
+const Engineer = require('../lib/engineer');
 
-describe("Employee class", () => {
+describe("Engineer class", () => {
     describe("Get Name method", () => {
-        const employee = new Employee("Sam", "2", "sam@email.com, samGit")
-    expect(employee.getName()).toBe("Sam");    
+        it("Should return the name", () => {
+            const result = new Engineer("Steve", "2", "steve@email.com", "steveGit");
+            expect(result.getName()).toBe("Steve");
+        });
     });
 
-    describe("Get Id method", () => {
-        const employee = new Employee("Sam", "2", "sam@email.com, samGit")
-    expect(employee.getId()).toBe("2");    
+    describe("Get ID method", () => {
+        it("Should return the ID", () => {
+            const result = new Engineer("Steve", "2", "steve@email.com", "steveGit");
+            expect(result.getId()).toBe("2");
+        });
     });
 
     describe("Get Email method", () => {
-        const employee = new Employee("Sam", "2", "sam@email.com, samGit")
-    expect(employee.getEmail()).toBe("sam@email.com");    
+        it("Should return the email", () => {
+            const result = new Engineer("Steve", "2", "steve@email.com", "steveGit");
+            expect(result.getEmail()).toBe("steve@email.com");
+        });
     });
 
     describe("Get Github method", () => {
-        const employee = new Employee("Sam", "2", "sam@email.com, samGit")
-    expect(employee.getGithub()).toBe("samGit");    
+        it("Should return the github", () => {
+            const result = new Engineer("Steve", "2", "steve@email.com", "steveGit");
+            expect(result.getGithub()).toBe("steveGit");
+        });
     });
-
-})
+});
