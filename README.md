@@ -27,20 +27,19 @@ To start, enter `node ./index.js` .
 ![app demo]()
 
 The application prompts you with a series of questions:
-- 
-- 
-- 
-- 
+- What is your Managers name?  What is your Manger's ID?  What is your Manger's Email Address?  What is your Managers Office number? 
+- What is your Intern's name?  What is your Intern's ID?  What is your Intern's Email Address?  What is your Intern's School? 
+- What is your Engineer's name?  What is your Engineer's ID?  What is your Engineer's Email Address?  What is your Engineer's Git Hub profile? 
 
-When all the questions are answered, a README file is dynamically outputted into the Repo. 
+When all the questions are answered a Team Profile file is dynamically outputted here, /dist/team-profile.html.  
 
 
 ## Technologies
 
-- HMTL
+- HMTL/CSS
 - JavaScript
 - Node
-- Inquirer
+- Express
 - Jest
 
 ---
@@ -50,4 +49,4 @@ Feel free to contact me with questions via the information below:
 
 GitHub profile: [@jnmayhook](https://github.com/jnmayhook)
 
-GitHub repo: [github.com/jnmayhook/README-Generator](https://github.com/jnmayhook/README-Generator)
+GitHub repo: [github.com/jnmayhook/Team-Profile-Generator](https://github.com/jnmayhook/Team-Profile-Generator)
