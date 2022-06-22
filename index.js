@@ -40,21 +40,13 @@ function addEmployees() {
             } else {
                 console.log("teams success.");
                 console.log(employee);
-                fs.writeFileSync("./dist/team-profile.html", generateHtml(employee))
+                fs.writeFileSync("./dist/team-profile.html", generateHtml(employee));
             }
-        }).catch((err) => {
+        })
+        .catch((err) => {
             console.log(err);
-
         });
-}// response, request, err; try catch
-
-// try {
-    
-// } catch (error) {
-    
-// }
-
-
+}
 function menu() {
     inquirer
         .prompt({
@@ -69,9 +61,9 @@ function menu() {
             } else {
                 addIntern();
             }
-        }).catch((err) => {
+        })
+        .catch((err) => {
             console.log(err);
-
         });
 }
 function addIntern() {
@@ -93,13 +85,17 @@ function addEngineer() {
             answers.id,
             answers.email,
             answers.github
-        )
+        );
         employee.push(engineer);
         addEmployees();
     });
 }
 
-
 // writeToFile("./index.html", generateHtml());
 
 init();
+
+// response, request, err; try catch
+// try {
+// } catch (error) {
+// }
