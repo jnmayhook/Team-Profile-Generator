@@ -31,7 +31,7 @@ The application prompts you with a series of questions:
 - What is your Intern's name?  What is your Intern's ID?  What is your Intern's Email Address?  What is your Intern's School? 
 - What is your Engineer's name?  What is your Engineer's ID?  What is your Engineer's Email Address?  What is your Engineer's Git Hub profile? 
 
-When all the questions are answered a Team Profile file is dynamically outputted here - [github.com/jnmayhook/Team-Profile-Generator/blob/main/dist/team-profile.html](/dist/team-profile.html).  
+When all the questions are answered a Team Profile file is dynamically outputted in the dist folder, here - [/dist/team-profile.html](https://github.com/jnmayhook/Team-Profile-Generator/blob/main/dist/team-profile.html).  
 
 
 ## Technologies
