@@ -2,7 +2,7 @@
 
 ## Description 
   
-This application runs via the command line using Node.js, and based on the user's input takes in information about employees on a software engineering team, and then generates a nicely formatted HTML webpage with the team roster, based on the users input; additionally the links are 
+This application runs via the command line using Node.js, and based on the user's input takes in information about employees on a software engineering team, and then generates a nicely formatted HTML webpage with the team roster, based on the users input.  The application also uses Jest for running the unit tests and Inquirer for collecting input from the user. 
 
 
 ## Table of Contents
@@ -31,7 +31,7 @@ The application prompts you with a series of questions:
 - What is your Intern's name?  What is your Intern's ID?  What is your Intern's Email Address?  What is your Intern's School? 
 - What is your Engineer's name?  What is your Engineer's ID?  What is your Engineer's Email Address?  What is your Engineer's Git Hub profile? 
 
-When all the questions are answered a Team Profile file is dynamically outputted here, /dist/team-profile.html.  
+When all the questions are answered a Team Profile file is dynamically outputted here - [github.com/jnmayhook/Team-Profile-Generator/blob/main/dist/team-profile.html](/dist/team-profile.html).  
 
 
 ## Technologies
@@ -39,7 +39,7 @@ When all the questions are answered a Team Profile file is dynamically outputted
 - HMTL/CSS
 - JavaScript
 - Node
-- Express
+- Inquirer
 - Jest
 
 ---

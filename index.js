@@ -69,6 +69,9 @@ function menu() {
             } else {
                 addIntern();
             }
+        }).catch((err) => {
+            console.log(err);
+
         });
 }
 function addIntern() {
@@ -90,7 +93,7 @@ function addEngineer() {
             answers.id,
             answers.email,
             answers.github
-        );
+        )
         employee.push(engineer);
         addEmployees();
     });
