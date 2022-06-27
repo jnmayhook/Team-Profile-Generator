@@ -90,12 +90,4 @@ function addEngineer() {
         addEmployees();
     });
 }
-
-// writeToFile("./index.html", generateHtml());
-
 init();
-
-// response, request, err; try catch
-// try {
-// } catch (error) {
-// }
