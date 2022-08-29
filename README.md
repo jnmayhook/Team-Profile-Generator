@@ -1,52 +1,33 @@
-# Team-Profile-Generator
+# Team Profile Generator
 
-## Description 
-  
-This application runs via the command line using Node.js, and based on the user's input takes in information about employees on a software engineering team, and then generates a nicely formatted HTML webpage with the team roster, based on the users input.  The application also uses Jest for running the unit tests and Inquirer for collecting input from the user. 
+## Description
 
+This application runs via the command line using Node.js and the NPM package Inquirer, which provides the functionality to capture a user’s input.  For this app, we utilize Node and Inquirer to create a team roster with questions and answers, and based on the user's input, an all-star roster is dynamically created in HTML5 with a responsive layout using Bootstrap.  Lastly, this app features the Jest framework for unit testing.     
 
-## Table of Contents
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Technologies](#technologies)
-* [Questions](#questions)
-  
-
-## Installation
-
-From within the command line, run the following command: `npm install` or `npm i` to download Node Package Manager (NPM).  Then enter `node -v` and `npm -v` to confirm you have Node installed. 
-
-Now you can run the application. 
-
-
-## Usage 
-
-To start, enter `node ./index.js` . 
-
-![app demo]()
-
-The application prompts you with a series of questions:
-- What is your Managers name?  What is your Manger's ID?  What is your Manger's Email Address?  What is your Managers Office number? 
-- What is your Intern's name?  What is your Intern's ID?  What is your Intern's Email Address?  What is your Intern's School? 
-- What is your Engineer's name?  What is your Engineer's ID?  What is your Engineer's Email Address?  What is your Engineer's Git Hub profile? 
-
-When all the questions are answered a Team Profile file is dynamically outputted in the dist folder, here - [/dist/team-profile.html](https://github.com/jnmayhook/Team-Profile-Generator/blob/main/dist/team-profile.html).  
 
 
 ## Technologies
-
-- HMTL/CSS
-- JavaScript
-- Node
+- HTML5
+- CSS/Bootstrap Framework
+- Javascript/Node.js
 - Inquirer
 - Jest
 
----
 
-## Questions?
-Feel free to contact me with questions via the information below:
 
-GitHub profile: [@jnmayhook](https://github.com/jnmayhook)
+## Installation Usage Instructions
+Open your terminal and type `npm install` or `npm i` to install the dependencies.  Then enter `npm start` to run the application.  Select the desired options to create individual profiles for employees.  When finished, select No for additional employees.  An HTML file called team-profile.html with your team roster will appear in the dist folder.  To run a unit test, open your terminal and enter `npm i`, if you haven't already, and enter `npm test`. 
 
-GitHub repo: [github.com/jnmayhook/Team-Profile-Generator](https://github.com/jnmayhook/Team-Profile-Generator)
+
+
+## Screenshots
+[Click here for a demo of the app run via the command line.](https://drive.google.com/file/d/1nRwOrRfqVZJgtoASRy4Oqe_q2j9KU4Ei/view)
+
+
+
+## Questions? 
+Please contact me: 
+
+GitHub: [@jnmayhook](https://github.com/jnmayhook)
+Email: [jnmayhook@gmail.com](mailto:jnmayhook@gmail.com)
+
