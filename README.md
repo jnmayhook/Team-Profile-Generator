@@ -15,7 +15,7 @@ This application runs via the command line using Node.js and the NPM package Inq
 
 
 
-## Installation Usage Instructions
+## Installation and Usage Instructions
 Open your terminal and type `npm install` or `npm i` to install the dependencies.  Then enter `npm start` to run the application.  Select the desired options to create individual profiles for employees.  When finished, select No for additional employees.  An HTML file called team-profile.html with your team roster will appear in the dist folder.  To run a unit test, open your terminal and enter `npm i`, if you haven't already, and enter `npm test`. 
 
 
